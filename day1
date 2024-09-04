@@ -1,0 +1,34 @@
+-TRANSFORMER 
+A transformer is a neural network that learns the context of sequential data (prompt as an input ) and generates new data (output) out of it 
+
+example : pasting a ques (sequential data) and asking a ques to chatgpt then it will give u output(new data)
+
+- 
+it is first developed to solve the problem of sequence transduction (sequence to sequence modeling) or neural machine translation 
+(give input  sequence and generate new sequence output)
+means to solve any task that transform an input sequence to an output sequence so this is called transformer 
+ 
+ it perform better than RNN 
+  
+  advantages of transformer 
+  - self attention 
+  -positional encoding 
+  -parallel processing 
+  - encode- decoder architecture
+
+
+   #=>Earlier instead of Transform RNN is used for NLP (like text translation ) but when transformer came it is preferrred than RNN because of few reason :
+   - IN RNN it work on sequence by sequence(word by word ,memory of prev word help to understand next word better) which will failed when u of large text and if might forget earlier information , then it got confused , we have LSTM(long term short memory and GRU ) rectify this issue but not largerr extent level  
+
+
+Limitations of RNN 
+- vanishing gradient problm 
+- sequential computation (can't take advantage parallel of GPU)
+- difficulty handling long dependencies ( sentence is long then difficult )
+- scalability (not efficient) 
+
+
+how to access gpt -4o  open-ai model using open-ai library 
+
+
+
